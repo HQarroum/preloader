@@ -53,7 +53,7 @@ Then simply declare at the top of your `body` tag the preloader container, along
 </div>
 ```
 
-Finally, once you have included the `preloader.js` asset into your application using either a `<script>` tag, an AMD loader, or a CommonJS loader, you can call the `.show` or the `.hide` methods to control the lifecycle of the preloader module.
+Finally, once you have included the `preloader.js` asset into your application using either a `<script>` tag, an [AMD loader](http://requirejs.org/docs/whyamd.html), or a [CommonJS loader](https://webpack.github.io/docs/commonjs.html), you can call the `.show` or the `.hide` methods to control the lifecycle of the preloader module.
 
 ```js
 // Hides the preloader with a fade out animation.
