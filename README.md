@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="#"><img width="300" src="https://github.com/HQarroum/preloader-js/blob/master/assets/images/rotating-square.gif" alt="preloader-js" /></a>
+  <a href="#"><img width="200" src="https://github.com/HQarroum/preloader/blob/master/assets/images/rotating-square.gif" alt="preloader-js" /></a>
   <br><br>
 </h1>
 
