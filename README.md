@@ -17,7 +17,7 @@
 </p>
 <br>
 
-This component aims to be used in web applications for which the rendering process is done on the client-side. It provides an elegant solution to the glitch problem encountered by this type of applications by displaying early in the rendering process of the page an animation until the developer decides to hide it when the rendering is done.
+This component aims to be used in web applications for which the rendering process is done on the client-side. It provides an elegant solution to the (glitch problem)[https://www.bennadel.com/blog/2758-creating-a-pre-bootstrap-loading-screen-in-angularjs.htm] encountered by this type of applications by displaying early in the rendering process of the page an animation until the developer decides to hide it when the rendering is done.
 
 Current version: **1.0.0**
 
@@ -47,7 +47,7 @@ You first need to include the `preloader.css` stylesheet into your application.
 Then simply declare at the top of your `body` tag the preloader container, along with the animation of your choice.
 
 ```html
-<!-- Preloader -->
+<!-- Preloader using the `rotating-square` animation -->
 <div class="preloader">
   <div class="animation animation-rotating-square"></div>
 </div>
