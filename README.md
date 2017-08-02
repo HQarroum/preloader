@@ -7,8 +7,8 @@
 <h4 align="center">A web component allowing to display opaque animations while an HTML page is loading.</h4>
 
 <p align="center">
-  <a href="https://travis-ci.org/HQarroum/preloader-js">
-    <img src="https://travis-ci.org/HQarroum/preloader-js.svg?branch=master"
+  <a href="https://travis-ci.org/HQarroum/preloader">
+    <img src="https://travis-ci.org/HQarroum/preloader.svg?branch=master"
          alt="Build Status">
   </a>
   <a href="https://badge.fury.io/js/preloader-js">
@@ -36,3 +36,28 @@ npm install --save preloader-js
 bower install --save preloader-js
 ```
 
+## Usage
+
+You first need to include the `preloader.css` stylesheet into your application.
+
+```html
+<link rel="stylesheet" href="path/to/preloader/assets/css/preloader.css">
+```
+
+Then simply declare at the top of your `body` tag the preloader container, along with the animation of your choice.
+
+```html
+<!-- Preloader -->
+<div class="preloader">
+  <div class="animation animation-rotating-square"></div>
+</div>
+```
+
+Finally, once you have included the `preloader.js` asset into your application using either a `<script>` tag, an AMD loader, or a CommonJS loader, you can call the `.show` or the `.hide` methods to control the lifecycle of the preloader module.
+
+```js
+// Hides the preloader with a fade out animation.
+preloader.hide();
+// Shows the preloader.
+preloader.show();
+```
