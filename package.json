@@ -1,6 +1,6 @@
 {
   "name": "preloader-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A web component allowing to display opaque animations while an HTML page is loading.",
   "main": "preloader.js",
   "scripts": {

@@ -19,7 +19,7 @@
 
 This component aims to be used in web applications for which the rendering process is done on the client-side. It provides an elegant solution to the [glitch problem](https://www.bennadel.com/blog/2758-creating-a-pre-bootstrap-loading-screen-in-angularjs.htm) encountered by this type of applications by displaying early in the rendering process of the page an animation until the developer decides to hide it when the rendering is done.
 
-Current version: **1.0.0**
+Current version: **1.0.1**
 
 Lead Maintainer: [Halim Qarroum](mailto:hqm.post@gmail.com)
 
