@@ -39,10 +39,8 @@
 @keyframes fadeOut {
   from {
     opacity: 1;
-    display: block;
   }
   to {
-    display: none;
     opacity: 0;
   }
 }
@@ -50,10 +48,8 @@
 @-moz-keyframes fadeOut {
   from {
     opacity: 1;
-    display: block;
   }
   to {
-    display: none;
     opacity: 0;
   }
 }
@@ -61,10 +57,8 @@
 @-webkit-keyframes fadeOut {
   from {
     opacity: 1;
-    display: block;
   }
   to {
-    display: none;
     opacity: 0;
   }
 }
@@ -72,10 +66,8 @@
 @-ms-keyframes fadeOut {
   from {
     opacity: 1;
-    display: block;
   }
   to {
-    display: none;
     opacity: 0;
   }
 }

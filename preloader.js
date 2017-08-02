@@ -28,6 +28,8 @@
     }
  })('preloader', function () {
 
+  let handle      = null;
+  const timeout   = 500;
   const preloader = document.querySelector('.preloader');
   const animation = document.querySelector('.animation');
 
@@ -52,7 +54,11 @@
      */
     hide: () => {
       if (!preloader.classList.contains('fade-out')) {
+        clearTimeout(handle);
         preloader.classList.add('fade-out');
+        handle = setTimeout(() => {
+          preloader.style.display = 'none';
+        }, timeout);
       }
     }
   };
