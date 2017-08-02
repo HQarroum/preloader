@@ -1,0 +1,20 @@
+{
+  "name": "preloader",
+  "description": "A web component allowing to display opaque animations while an HTML page is loading.",
+  "main": "preloader.js",
+  "authors": [
+    "Halim Qarroum <hqm.post@gmail.com> (https://halim.qarroum.com)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "preloader"
+  ],
+  "homepage": "https://github.com/HQarroum/preloader",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

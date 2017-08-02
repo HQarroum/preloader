@@ -1,0 +1,86 @@
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fefefe;
+  z-index: 9999;
+  height: 100%;
+  -moz-animation-duration: 500ms;
+  -webkit-animation-duration: 500ms;
+  -ms-animation-duration: 500ms;
+  animation-duration: 500ms;
+  -moz-animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+  -ms-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -moz-animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;  
+}
+
+.preloader.fade-out {
+  -moz-animation-name: fadeOut;
+  -webkit-animation-name: fadeOut;
+  -ms-animation-name: fadeOut;
+  animation-name: fadeOut;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    display: block;
+  }
+  to {
+    display: none;
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes fadeOut {
+  from {
+    opacity: 1;
+    display: block;
+  }
+  to {
+    display: none;
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 1;
+    display: block;
+  }
+  to {
+    display: none;
+    opacity: 0;
+  }
+}
+
+@-ms-keyframes fadeOut {
+  from {
+    opacity: 1;
+    display: block;
+  }
+  to {
+    display: none;
+    opacity: 0;
+  }
+}
+    
+.animation {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -170px 0 0 -100px;
+}
+
+.animation-rotating-square {
+  background: url('../images/rotating-square.gif') no-repeat center center;
+}
