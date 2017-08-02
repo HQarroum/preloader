@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="#"><img width="150" src="https://github.com/HQarroum/preloader/blob/master/assets/images/rotating-square.gif" alt="preloader-js" /></a>
+  <img width="150" src="https://github.com/HQarroum/preloader/blob/master/assets/images/rotating-square.gif" alt="preloader-js" />
   <br><br>
 </h1>
 
@@ -60,4 +60,47 @@ Finally, once you have included the `preloader.js` asset into your application u
 preloader.hide();
 // Shows the preloader.
 preloader.show();
+```
+
+## Animations
+
+Below is alist of the different animations which have been built into this library.
+
+### Rotating Square
+
+<img width="150" src="https://github.com/HQarroum/preloader/blob/master/assets/images/rotating-square.gif" alt="preloader-js" />
+
+#### Example
+
+```html
+<!-- Preloader using the `rotating-square` animation -->
+<div class="preloader">
+  <div class="animation animation-rotating-square"></div>
+</div>
+```
+
+### Color wheel
+
+<img width="150" src="https://github.com/HQarroum/preloader/blob/master/assets/images/color-wheel.gif" alt="preloader-js" />
+
+#### Example
+
+```html
+<!-- Preloader using the `color-wheel` animation -->
+<div class="preloader">
+  <div class="animation animation-color-wheel"></div>
+</div>
+```
+
+### Lego
+
+<img width="200" src="https://github.com/HQarroum/preloader/blob/master/assets/images/lego.gif" alt="preloader-js" />
+
+#### Example
+
+```html
+<!-- Preloader using the `lego` animation -->
+<div class="preloader">
+  <div class="animation animation-lego"></div>
+</div>
 ```
