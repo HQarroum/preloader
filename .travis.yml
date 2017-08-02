@@ -4,7 +4,9 @@ before_install:
 install:
 - npm install
 script:
-- grunt
+- npm run build
+after_success:
+- npm pack
 
 # Deployment directives.
 # Triggered when tags are pushed.
