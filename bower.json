@@ -1,5 +1,5 @@
 {
-  "name": "preloader",
+  "name": "preloader-js",
   "description": "A web component allowing to display opaque animations while an HTML page is loading.",
   "main": "preloader.js",
   "authors": [

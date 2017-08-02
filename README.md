@@ -41,7 +41,7 @@ bower install --save preloader-js
 You first need to include the `preloader.css` stylesheet into your application.
 
 ```html
-<link rel="stylesheet" href="path/to/preloader/assets/css/preloader.css">
+<link rel="stylesheet" href="path/to/preloader-js/assets/css/preloader.css">
 ```
 
 Then simply declare at the top of your `body` tag the preloader container, along with the animation of your choice.
