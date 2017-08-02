@@ -93,6 +93,20 @@
   margin: -170px 0 0 -100px;
 }
 
+/**
+ * Animation definitions.
+ */
+
 .animation-rotating-square {
   background: url('../images/rotating-square.gif') no-repeat center center;
+}
+
+.animation-color-wheel {
+  background: url('../images/color-wheel.svg') no-repeat center center;
+}
+
+.animation-lego {
+  background: url('../images/lego.gif') no-repeat center center;
+  background-size: 310px 230px;
+  top: 55%;
 }
