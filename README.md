@@ -81,7 +81,7 @@ Below is alist of the different animations which have been built into this libra
 
 ### Color wheel
 
-<img width="150" src="https://github.com/HQarroum/preloader/blob/master/assets/images/color-wheel.svg" alt="preloader-js" />
+<img width="150" src="https://github.com/HQarroum/preloader/blob/master/assets/images/color-wheel.gif" alt="preloader-js" />
 
 #### Example
 
@@ -94,7 +94,7 @@ Below is alist of the different animations which have been built into this libra
 
 ### Lego
 
-<img width="150" src="https://github.com/HQarroum/preloader/blob/master/assets/images/lego.gif" alt="preloader-js" />
+<img width="200" src="https://github.com/HQarroum/preloader/blob/master/assets/images/lego.gif" alt="preloader-js" />
 
 #### Example
 
