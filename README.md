@@ -68,7 +68,7 @@ Below is alist of the different animations which have been built into this libra
 
 ### Rotating Square
 
-<img width="150" src="https://github.com/HQarroum/preloader/blob/master/assets/images/rotating-square.gif" alt="preloader-js" />
+<img width="100" src="https://github.com/HQarroum/preloader/blob/master/assets/images/rotating-square.gif" alt="preloader-js" />
 
 #### Example
 
@@ -81,7 +81,7 @@ Below is alist of the different animations which have been built into this libra
 
 ### Color wheel
 
-<img width="150" src="https://github.com/HQarroum/preloader/blob/master/assets/images/color-wheel.gif" alt="preloader-js" />
+<img width="100" src="https://github.com/HQarroum/preloader/blob/master/assets/images/color-wheel.gif" alt="preloader-js" />
 
 #### Example
 
